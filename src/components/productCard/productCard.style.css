@@ -1,0 +1,38 @@
+.product-card {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid black;
+  padding: 5px;
+  gap: 20px;
+}
+
+.product-card img {
+  width: 100%;
+}
+
+.image-box {
+  min-height: 141px;
+}
+
+.product-name {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.product-name h5 {
+  max-width: 50%;
+}
+
+#description {
+  min-height: 15%;
+}
+
+#price {
+  align-self: end;
+}
+
+.price-view {
+  display: flex;
+  flex-direction: column;
+}
